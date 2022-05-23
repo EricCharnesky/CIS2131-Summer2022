@@ -136,7 +136,15 @@ else:
     print("Your GPA is an F")
 
 have_recent_late_payments = input("Do you have any recent late payments? (yes/no): ")
-annual_income = int(input("Enter your annual income ( no $ ): "))
+
+# start a try block where you want to not crash if a bad thing happens
+try:
+    annual_income = int(input("Enter your annual income ( no $ ): "))
+except: # if the bad thing happens, run this
+    print("invalid entry, please run again")
+    exit() # hard stop the program
+
+
 
 # and
 # true and true == true
@@ -169,7 +177,7 @@ if 9 == 10:
     apples = "apples"
 
 # short circuit evaluation
-if True and apples:
+if False and apples:
     print("yes apples")
 else:
     print("what is apples?")
@@ -186,4 +194,183 @@ x = x + 1 # =)
 
 # math majors
 x = x + 1 # =(
+
+number = int(input("Enter an integer: "))
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+
+if number == 1:
+    print("Collatz conjecture!")
+elif number % 2: # not 0
+    number = number * 3 + 1
+else:
+    number /= 2
+print(number)
+
+
+gender = input("Enter your gender")
+age = int(input("Enter your age"))
+previous_crash = input("Have you had a previous accident? (yes/no) ")
+
+if gender == "male":
+    if age < 25:
+        rate = 250
+    else:
+        rate = 150
+else:
+    if age < 25:
+        rate = 200
+    else:
+        rate = 150
+
+if previous_crash == "yes":
+    rate += 50
+
+if gender == "male" and age < 25:
+    rate = 250
+elif gender == "female" and age < 25:
+    rate = 200
+else:
+    rate = 150
+
+test = 'B'
+test = 'A'
+
+# is checks for identical
+print(first_class_letter_grade is test)
 
