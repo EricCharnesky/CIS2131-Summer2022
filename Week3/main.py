@@ -1,16 +1,25 @@
+import random
+
+value = random.randint(65, 90) # gives random value 1 - 5 inclusive of both ends
+print(value)
+print(chr(value))
+print(ord('E'), ord('R'), ord('I'), ord('C'))
+
+
 first_class_letter_grade = input("enter your letter grade for class #1")
-second_class_letter_grade = input("enter your letter grade for class #2")
+second_class_letter_grade = input("enter your letter grade for class #2").upper()
 third_class_letter_grade = input("enter your letter grade for class #3")
+third_class_letter_grade = third_class_letter_grade.upper()
 print()
 grade_point = 0
 
-if first_class_letter_grade == "A":
+if first_class_letter_grade == "A" or first_class_letter_grade == "a":
     grade_point += 4
 
-elif first_class_letter_grade == "A-":
+elif first_class_letter_grade.upper() == "A-":
     grade_point += 3.7
 
-elif first_class_letter_grade == "B+":
+elif first_class_letter_grade.upper() == "B+":
     grade_point += 3.3
 
 elif first_class_letter_grade == "B":
