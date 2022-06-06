@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dda6ad6-0a8d-4405-8825-fb8b68958372" name="Changes" comment="" />
+    <list default="true" id="86849456-c56a-4d29-bad3-2a0b4d6cdeb7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,15 +16,21 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2ADnYPcSwkckYN0Bsyl4JL3yIKC" />
+  <component name="ProjectId" id="2ADok3akxlw9IGtHcxSOBbzRL8w" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Lab2" />
+      <module name="Project1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -48,11 +54,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1dda6ad6-0a8d-4405-8825-fb8b68958372" name="Changes" comment="" />
-      <created>1654553070255</created>
+      <changelist id="86849456-c56a-4d29-bad3-2a0b4d6cdeb7" name="Changes" comment="" />
+      <created>1654553656281</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1654553070255</updated>
+      <updated>1654553656281</updated>
     </task>
     <servers />
   </component>
