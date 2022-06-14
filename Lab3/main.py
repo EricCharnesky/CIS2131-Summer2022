@@ -16,7 +16,7 @@ def affirmation_generator():
     else:
         print("All I need is within me right now.")
 
-    #return None - redundant 
+    #return None - redundant
 
 
 def quadratic_equation_intercept_finder(a, b, c):
