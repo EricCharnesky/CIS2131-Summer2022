@@ -42,4 +42,3 @@ for hour in range(24): # 0-23
     for minute in range(60): # 0-59
         for second in range(60): #0-59
             print(hour, ":", minute, ":", second)
-            
