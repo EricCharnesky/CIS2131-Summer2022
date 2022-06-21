@@ -41,4 +41,4 @@ print(days_until_date, "days until your date ( approximately ) ")
 for hour in range(24): # 0-23
     for minute in range(60): # 0-59
         for second in range(60): #0-59
-            print(hour, ":", minute, ":", second)
+            print(f'{hour:>02}:{minute:>02}:{second:>02}')
