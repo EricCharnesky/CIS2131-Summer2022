@@ -3,3 +3,5 @@
 2022-6-27 19:13:51 - You ran the program
 2022-6-27 19:13:53 - You ran the program
 2022-6-27 19:13:54 - You ran the program
+2022-6-27 19:35:26 - You ran the program
+2022-6-27 19:38:37 - You ran the program

@@ -5,6 +5,19 @@
 import os.path
 from datetime import datetime
 
+# if you aren't using windows, or aren't sure what OS someone is using
+# lookup os.path.join
+file_in_c_drive = open("c:\\test\\test.txt", 'w')
+file_in_c_drive.write("Hi c drive file")
+file_in_c_drive.close()
+
+
+# be careful with file names being deleted
+file_to_delete = input("enter the file name to delete")
+os.remove(file_to_delete)
+
+
+
 
 log_file = open("logfile.txt", 'a')
 
