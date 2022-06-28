@@ -5,6 +5,12 @@
 import os.path
 from datetime import datetime
 
+name = "Eric"
+
+for letter in name:
+    print(f'unicode value for {letter} is {ord(letter)}')
+    print(f'the next letter is {chr(ord(letter) + 1)}')
+
 # if you aren't using windows, or aren't sure what OS someone is using
 # lookup os.path.join
 file_in_c_drive = open("c:\\test\\test.txt", 'w')
