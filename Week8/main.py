@@ -1,7 +1,43 @@
 my_list = [1, 2, 3, 4, 6] # lists are mutable
 my_tuple = (1, 2, 3, 4, 5) # tuples are immutable
 my_dictionary = {1, 2, 3, 4, 5} # dictionary are mutable
+# mappings - key, and associated value
 
+print(my_dictionary)
+
+gradebook = {}
+gradebook['Eric'] = 100 # assign the key of Eric, the value of 100
+gradebook['Jeb'] = 90
+gradebook['Journey'] = 75
+
+gradebook['Eric'] = 95 # updates the existing value associated with Eric
+gradebook['eric'] = 100 # keys are case-sensitive
+print(f"Eric's score: {gradebook['Eric']}")
+
+del gradebook['Journey'] # deletes the entry
+
+# there is no order guaranteed in dictionaries
+
+for key in gradebook: # loops through every key
+    print(f'key: {key} - associated value: {gradebook[key]}')
+
+# tuples, but not lists, can be used as keys
+gradebook[(1, 2, 3)] = [4, 5, 6]
+
+print(gradebook)
+
+for value in gradebook.values():
+    print(value)
+
+if 'eric' in gradebook:
+    print("Eric is in the class")
+else:
+    print("not in the class")
+
+if 95 in gradebook.values():
+    print("someone has a 95?")
+else:
+    print("No one has a 95")
 
 print("items in my list")
 for item in my_list:
@@ -17,6 +53,7 @@ for index in range(len(my_list)):
     print(f'Index: {index} - value: {my_list[index]}')
 
 my_list[1] = 42
+# my_list[10] = 42 - only works with existing indexes
 
 for index in range(len(my_tuple)):
     print(f'Index: {index} - value: {my_tuple[index]}')
